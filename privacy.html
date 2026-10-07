@@ -3,36 +3,129 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SquidSpot privacy policy — SquidSpot</title>
+  <title>SquidSpot Privacy Policy — SquidSpot</title>
   <style>
 :root { color-scheme: dark; }
 body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.55; max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; background: #06141F; color: #E8F1F8; }
 h1, h2 { color: #7FDBDA; }
 h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+h2 { font-size: 1.1rem; margin-top: 1.75rem; }
 .meta { color: #9BB4C4; font-size: 0.95rem; margin-bottom: 2rem; }
+.summary { border: 1px solid #1E4A5E; border-radius: 10px; padding: 0.5rem 1.25rem; background: #0B2233; }
+li { margin-bottom: 0.4rem; }
 a { color: #7FDBDA; }
 nav a { margin-right: 1rem; }
-.notice { background: #0B1F2E; border: 1px solid #1E3A4C; padding: 0.85rem 1rem; border-radius: 8px; color: #9BB4C4; font-size: 0.9rem; margin-bottom: 1.5rem; }
 </style>
-
 </head>
 <body>
   <nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
-  <h1>SquidSpot privacy policy</h1>
-  <p class="meta">Updated 5 October 2026 · App package: app.squidspot.eging · Publisher: LabtechApps</p>
-  <p class="notice">Plain-language draft for closed testing. Not legal advice and not a government notice. Have a lawyer review before production release.</p>
-  <p>Updated 5 October 2026.</p>
-  <p>SquidSpot does not run a user account server for this build. The app does not ask you to create an account.</p>
-  <p>On this device only, the app stores a catch log, pins you drop, your chosen region, whether the map is dark or day, whether the welcome paywall has been shown, and a cached copy of your Premium status. That data stays in local storage. Uninstalling the app removes it. SquidSpot does not upload those records to a SquidSpot server.</p>
-  <p>The Android app includes a location permission because the Mapbox map library declares it. This build does not request GPS in the app code and does not upload coordinates to SquidSpot.</p>
-  <p>When a Mapbox token is configured, the native map loads tiles from Mapbox. Those requests include an IP address and are covered by Mapbox’s privacy policy. The web map can load OpenStreetMap tiles through a public tile service.</p>
-  <p>Premium is an optional auto-renewing subscription sold through Google Play Billing. Google processes the payment under its own terms and privacy policy. SquidSpot does not receive your card details. The app asks Google Play which SquidSpot subscription your Google account owns so it can unlock Premium. SquidSpot does not send that information to a SquidSpot server.</p>
-  <p>This build does not include an advertising SDK and does not sell personal information.</p>
-  <p>SquidSpot is not directed at children under 13.</p>
-  <p>Contact the developer at <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a> (Google Play listing contact).</p>
-  <p>This text is not a government notice. A lawyer should review it before production release.</p>
-  <h2>Contact</h2>
-  <p>LabtechApps / SquidSpot · <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a></p>
-
+  <h1>SquidSpot Privacy Policy</h1>
+  <p class="meta">Updated 7 October 2026 · App package: app.squidspot.eging · LabtechApps (Luke Brehmer), Australia</p>
+  <div class="summary">
+  <p><strong>In short</strong></p>
+  <ul>
+    <li>No account, no ads, no analytics or crash-reporting SDK, and we never sell your data.</li>
+    <li>Your catch log, pins and settings stay on your phone.</li>
+    <li>Your location is used only on your phone, to centre the map when you tap “Locate me”.</li>
+    <li>To show forecasts and maps, the app contacts our forecast server (on Cloudflare) and Mapbox. Like any internet service, they see your IP address.</li>
+    <li>Google Play handles payments. We never see your card details.</li>
+    <li>Email <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a> at any time to ask what we hold, or to correct or delete it.</li>
+  </ul>
+  </div>
+  <h2>1. About this policy</h2>
+  <p>This Privacy Policy explains how Luke Brehmer, trading as LabtechApps (“LabtechApps”, “we”, “us”, “our”) handles personal information in connection with the SquidSpot Android app (app.squidspot.eging), its forecast server and any related website (together, “SquidSpot”). Contact: <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a>.</p>
+  <p>Whether or not the Privacy Act 1988 (Cth) applies to us, we aim to handle personal information in line with the Australian Privacy Principles (APPs). This is our APP privacy policy. The same text is shown in the app (More, then Privacy policy) and online.</p>
+  <p>Please read it together with the SquidSpot Terms of Use.</p>
+  <h2>2. The short version</h2>
+  <p>SquidSpot is built to collect as little as possible. There is no sign-in. The app never asks for your name, email address or phone number, and we run no user database. You can use SquidSpot without telling us who you are.</p>
+  <h2>3. Information that stays on your device</h2>
+  <p>Your catch log, pins you drop, chosen region, map style, whether the welcome screen was shown, cached forecasts (kept for up to 36 hours) and a cached copy of your Premium status are stored in the app’s local storage on your phone. They are not sent to us.</p>
+  <p>Deleting them in the app, clearing the app’s storage, or uninstalling the app removes them. If Android backup is turned on, your device may include them in your own Google backup, which Google handles under its privacy policy.</p>
+  <p>Share cards are created on your device. When you share one, it goes only to the app you choose. We don’t receive it.</p>
+  <h2>4. Location</h2>
+  <p>SquidSpot uses your device location only if you tap “Locate me”. The app first explains why, and then Android asks for permission. Android lets you choose approximate location, which is enough for this feature.</p>
+  <p>If you allow it, the app reads your location to centre the map on you. The app does not store your location, and does not send it to our server or to anyone else. We turn off the Mapbox map library’s location and usage telemetry, so the map library doesn’t send your location to Mapbox for its own purposes.</p>
+  <p>Map tiles and place searches go to Mapbox (section 6). They include the area shown on the map or the map’s centre, which may be near you if you have centred the map on your location. So Mapbox may be able to infer your approximate location.</p>
+  <p>You can turn location permission off at any time in Android settings. The rest of the app keeps working.</p>
+  <h2>5. Forecast requests (wind, swell and tides)</h2>
+  <p>To show wind, swell and sun times, the app sends the ID of the catalogue spot or region you are viewing (never your GPS position) to SquidSpot’s forecast server. The server runs on Cloudflare Workers (Cloudflare, Inc., USA, which operates a global network).</p>
+  <p>Our server then asks Open-Meteo (Switzerland), and may ask other third-party weather providers, for the forecast. It sends only the spot’s own coordinates, rounded to about 1 km. It does not pass on your IP address or device details.</p>
+  <p>Some versions of the app request forecasts directly from Open-Meteo instead, using the same rounded spot coordinates. In that case Open-Meteo also receives your IP address.</p>
+  <p>Like any internet service, our server sees your IP address. We hold it in memory for about a minute to limit excessive requests (to prevent abuse). We don’t write it to logs or storage, and request logging is turned off. Cloudflare processes request data (such as IP address and request details) to run and protect its network, under its own privacy policy.</p>
+  <p>Tide predictions are calculated on your phone from tide-gauge constants (TICON-4) and send nothing.</p>
+  <h2>6. Maps and place search (Mapbox)</h2>
+  <p>Maps come from Mapbox, Inc. (USA). To load map tiles, the app sends Mapbox your IP address, the map area and zoom level, standard technical details (such as app, library and Android versions) and SquidSpot’s public access token.</p>
+  <p>When you search for a place, the text you type and the map’s current centre are sent to Mapbox’s place-search (geocoding) service, which returns results in Australia.</p>
+  <p>Mapbox handles this information under its privacy policy (<a href="https://www.mapbox.com/legal/privacy">mapbox.com/legal/privacy</a>).</p>
+  <h2>7. Subscriptions and payments (Google Play)</h2>
+  <p>Premium is sold through Google Play Billing. Google processes your payment under its own terms and privacy policy, and we never see your card or bank details.</p>
+  <p>To unlock Premium, the app asks Google Play, on your device, which SquidSpot subscription your Google account has. The app doesn’t send that to our server.</p>
+  <p>Google gives us limited transaction information through the Google Play Console (for example order number, product, price, date, status and general location such as country or state) so we can manage subscriptions, refunds, tax and support.</p>
+  <h2>8. Crash and performance reports</h2>
+  <p>SquidSpot doesn’t include any crash-reporting or analytics SDK.</p>
+  <p>If you have chosen to share usage and diagnostics data with Google on your device, Google Play may give us crash and performance reports (Android vitals). These contain technical details such as device model, Android version, app version and the error, and are not designed to identify you. Google handles this under its privacy policy.</p>
+  <h2>9. When you contact us</h2>
+  <p>If you email us, we receive your email address, your name if you include it, your message and any attachments. We use these only to respond, and keep them only as long as needed to deal with your request and any follow-up.</p>
+  <h2>10. What we don’t collect</h2>
+  <p>SquidSpot does not collect:</p>
+  <ul>
+    <li>your name, email address or phone number through the app;</li>
+    <li>your device’s GPS location (it stays on your phone; section 4 explains the map area and search point sent to Mapbox);</li>
+    <li>your catch log, notes or pins;</li>
+    <li>contacts, photos, files, messages or calendar;</li>
+    <li>your advertising ID, or any information for advertising, tracking you across other apps or websites, or profiling;</li>
+    <li>payment card or bank details;</li>
+    <li>health, financial or other sensitive information.</li>
+  </ul>
+  <p>SquidSpot has no ads and no analytics SDK. We do not sell, rent or trade personal information.</p>
+  <h2>11. How we use information</h2>
+  <p>We use the limited information described above only to:</p>
+  <ul>
+    <li>provide SquidSpot’s features (maps, search, forecasts and Premium);</li>
+    <li>keep SquidSpot secure and prevent abuse (for example rate limiting);</li>
+    <li>respond to your questions, requests and complaints;</li>
+    <li>manage subscriptions and refunds;</li>
+    <li>find and fix bugs; and</li>
+    <li>meet our legal obligations.</li>
+  </ul>
+  <p>We don’t use it for advertising or profiling, or to make automated decisions about you.</p>
+  <h2>12. Who we share information with</h2>
+  <p>Information goes only to the service providers below, and only to run the features you use:</p>
+  <ul>
+    <li>Google LLC (USA): app distribution, Google Play Billing, and crash reports if you have opted in (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>).</li>
+    <li>Mapbox, Inc. (USA): map tiles and place search (<a href="https://www.mapbox.com/legal/privacy">mapbox.com/legal/privacy</a>).</li>
+    <li>Cloudflare, Inc. (USA, global network): hosting for our forecast server (<a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy</a>).</li>
+    <li>Open-Meteo (Switzerland): weather and marine forecasts. Through our server it receives only spot coordinates, not your IP address (<a href="https://open-meteo.com/en/terms">open-meteo.com/en/terms</a>).</li>
+    <li>Other third-party weather providers we may use from time to time: these receive only spot or location identifiers or coordinates from our server, never your IP address or device details. If we add a provider that would receive personal information, we will update this policy first.</li>
+  </ul>
+  <p>We may also disclose information if the law requires or authorises it (for example to a court or law enforcement agency), to protect someone’s safety, or to someone who takes over SquidSpot, who must handle it in line with this policy.</p>
+  <h2>13. Overseas disclosure</h2>
+  <p>Some of our service providers are based overseas or store data overseas. Personal information (mainly your IP address, map area and search text) is likely to be handled in the United States (Google, Mapbox and Cloudflare), Switzerland and the European Union (Open-Meteo), and other countries where these providers or their data centres operate. Cloudflare usually handles a request at a data centre near you, which may be in Australia.</p>
+  <p>We choose established providers that publish privacy commitments, and send them only what is needed. We don’t control how they handle information (see section 17).</p>
+  <h2>14. Security</h2>
+  <p>All of SquidSpot’s network requests use HTTPS (encrypted in transit). Service keys for our forecast server stay on the server and are not in the app. We keep no user database and hold almost no personal information. Data on your phone is protected by Android’s app sandbox.</p>
+  <p>We take reasonable steps to protect personal information from misuse, interference, loss, and unauthorised access, change or disclosure. No method of transmission or storage is completely secure, so we can’t guarantee security. If a data breach is likely to cause you serious harm, we will notify you and the OAIC where the law requires it.</p>
+  <h2>15. How long we keep information</h2>
+  <ul>
+    <li>On your device: until you delete it in the app, clear the app’s storage, or uninstall.</li>
+    <li>IP addresses at our forecast server: about one minute, in memory only.</li>
+    <li>Forecast data cached on our server: contains no personal information and expires automatically.</li>
+    <li>Support emails: only as long as needed to deal with your request and any follow-up, then deleted.</li>
+    <li>Google, Mapbox, Cloudflare and Open-Meteo: under their own retention policies.</li>
+  </ul>
+  <h2>16. Access, correction and deletion</h2>
+  <p>You can ask us at any time what personal information we hold about you, and ask us to correct or delete it, by emailing <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a>. It’s free. We may need to confirm it’s you, and we’ll reply within 30 days. Because SquidSpot holds so little, we often won’t hold anything that identifies you.</p>
+  <p>You can delete on-device data yourself in the app, by clearing the app’s storage, or by uninstalling. For information held by Google, Mapbox or Cloudflare, you can also use their own privacy tools.</p>
+  <h2>17. Third-party services</h2>
+  <p>Third-party services used by SquidSpot, and any app you share a card to, have their own privacy practices. To the extent permitted by law, we are not responsible for their privacy practices or content. Please read their policies, including Google (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>), Mapbox (<a href="https://www.mapbox.com/legal/privacy">mapbox.com/legal/privacy</a>) and Cloudflare (<a href="https://www.cloudflare.com/privacypolicy/">cloudflare.com/privacypolicy</a>).</p>
+  <h2>18. Children</h2>
+  <p>SquidSpot is for adults aged 18 and over and is not directed at anyone under 18. We don’t knowingly collect personal information from anyone under 18. If you believe someone under 18 has sent us personal information, email us and we will delete it.</p>
+  <h2>19. Complaints</h2>
+  <p>If you have a privacy concern or complaint, please email <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a>. We’ll look into it and aim to respond within 30 days.</p>
+  <p>If you’re not satisfied with our response, you may be able to complain to the Office of the Australian Information Commissioner (OAIC): <a href="https://www.oaic.gov.au/">oaic.gov.au</a>, phone 1300 363 992.</p>
+  <h2>20. Changes to this policy</h2>
+  <p>We will update this policy, and the “Updated” date, when the way SquidSpot handles information changes. For material changes, we will also give notice in the app or on this page.</p>
+  <h2>21. Contact</h2>
+  <p>LabtechApps (Luke Brehmer), Australia. Email: <a href="mailto:outlaw4m@gmail.com">outlaw4m@gmail.com</a>.</p>
 </body>
 </html>
